@@ -1,0 +1,143 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEP Prototype - STYLE GUIDE</title>
+
+<!-- NOTE: Import webfonts using this link: -->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,200' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/sep-prototype.js"></script>
+
+<style type="text/css">
+	.color-swatch {
+		background-color:white;
+		display: inline-block;
+    	padding: 5px 10px;
+		border:1px solid gray;
+	}
+	.color-red {
+		background-color: #8c1515;
+		color: white;
+	}
+	.color-beige {
+		background-color: #F2ECE8;
+	}
+	.color-black {
+		background-color:#343434;
+		color: white;
+	}
+	.color-seagreen {
+		background-color:#C7D1C5;
+	}
+	.color-gold {
+		background-color: #ddcf99;
+	}
+	.color-gray {
+		background-color: #EDEBEA;
+	}
+	.color-gray2 {
+		background-color: #D6D1CD;
+	}
+</style>
+</head>
+
+<body class="editorial">
+	<div id="container">
+
+		<div id="header-wrapper"> 
+			<div id="header">
+				<div id="branding">
+					<div id="site-logo"><a href="index.html"><img src="symbols/sep-man-red.png"  /></a></div>
+					<div id="site-title"><a href="index.html">Stanford Encyclopedia of Philosophy</a></div>
+				</div>	
+			</div>
+		</div> <!-- End header wrapper -->
+
+		<div id="content">
+			
+			<h1>Style Guide</h1>
+			<p>Body Text is Source Sans Pro 15px, 400 weight, #343434 - Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+			<p><strong>Colors:</strong></p>
+			<ul>
+				<li>Background Color: <span class="color-swatch color-beige">#F2ECE8</span></li>
+				<li>Body Text Color: <span class="color-swatch color-black">#343434</span></li>
+				<li>Link Text Color: <span class="color-swatch color-red">#8c1515</span></li>
+				<li>Button Background Color: <span class="color-swatch color-gray">#EDEBEA</span>
+					Button Hover Color: <span class="color-swatch color-gray2">#D6D1CD</span></li>
+				<li><em>Optional spot color:</em> <span class="color-swatch color-seagreen">#C7D1C5</span></li>
+				<li><em>Optional spot color:</em> <span class="color-swatch color-gold">#ddcf99</span></li>
+			</ul>
+			<br />
+
+			<p><strong>Jump-To Menu (add class="jump-menu")</strong></p>
+			<ul class="jump-menu">
+			 <li><a href="#">Example Link</a></li>
+			 <li><a href="#">Example Link</a></li>
+			 <li><a href="#">Example Link</a></li>
+			</ul>
+
+			<h1>Header One - Source Sans Pro 2.5em, 300 weight</h1>
+			<p>Header one should be used only for page titles, and ideally, all page titles use this and not just a div.</p>
+			<h2>Header Two - Source Sans Pro 2em, 300 weight</h2>
+			<h3>Header Three - Source Sans Pro 24.5px, 300 weight</h3>
+			<h4>Header Four - Source Sans Pro 17.5px, 300 weight</h4>
+			<h5>Header Five - Source Sans Pro 14px, 600 weight</h5>
+			<h6>Header Six - Source Sans Pro 11.9px, 600 weight</h6>
+			
+			<p><a href="">Link text is #8c1515</a></p>
+			<p><a href="" class="btn">Button uses .btn class</a></p>
+
+			<div id="article">
+				<div id="article-content">
+					<p><strong>Article and Homepage Mission box styles:</strong><br />
+						background-color: #FFFFFF;<br />
+					    border: 1px solid #D8D8D8;<br />
+					    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);<br />
+					    margin: 3em 0 1em;<br />
+					    padding: 2em;
+					</p>
+					<hr />
+					<h1>Slightly Different Article Styles</h1>
+					<p>Body Text is serif 1.1em, 400 weight, #343434 - Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor.</p>
+					<h1>Header One - Same as Above</h1>
+					<p>Header one should be used only for page titles, and ideally, all page titles use this and not just a div.</p>
+					<h2>Header Two - Source Sans Pro 2em, 400 weight</h2>
+					<h3>Header Three - Source Sans Pro 24.5px, 400 weight</h3>
+					<h4>Header Four - serif 17.5px, 300 weight</h4>
+					<h5>Header Five - serif 14px, 600 weight</h5>
+					<h6>Header Six - serif 11.9px, 600 weight</h6>
+					<p><a href="">Link text is #8c1515 and underlined for emphasis</a></p>
+				</div>
+			</div>
+
+			<div id="article-banner-content">
+				<p><strong>Article banner box styles:</strong><br />
+				
+				    background-color: #EDEBE9;<br />
+				    border: 1px solid #D8D8D8;<br />
+				    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);<br />
+				    margin: 1em 0 0;<br />
+				    padding: 2em;
+				</p>
+			</div>
+
+			<hr />
+			<p><em>Last updated June 27, 2013 by <a href="http://webservices.stanford.edu">Stanford Web Services</a></em></p>
+
+
+		</div><!-- End content -->
+
+	</div><!-- End container -->
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEP Prototype - DOCUMENTATION</title>
+
+<!-- NOTE: Import webfonts using this link: -->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,200' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/sep-prototype.js"></script>
+
+</head>
+
+<body class="editorial">
+	<div id="container">
+
+		<div id="header-wrapper"> 
+			<div id="header">
+				<div id="branding">
+					<div id="site-logo"><a href="index.html"><img src="symbols/sep-man-red.png"  /></a></div>
+					<div id="site-title"><a href="index.html">Stanford Encyclopedia of Philosophy</a></div>
+				</div>	
+			</div>
+		</div> <!-- End header wrapper -->
+
+		<div id="content">
+			
+			<h1>Redesign Documentation</h1>
+			<p class="lead">This page documents technology and details related to the SEP website redesign project.</p>
+			<h2>Style Guide</h2>
+			<p>Style guide information can be found <a href="style-guide.html">here</a>. The style guide includes typography and color specifications, as well as style examples for various re-usable design elements, such as boxes, links, buttons, etc. The style guide also provides additional spot color ideas if you need a wider color palette.</p>
+			<h2>Bootstrap</h2>
+			<p>The new website is built using <a href="http://twitter.github.io/bootstrap">Twitter Bootstrap</a> code. This codebase provides base styles on which the design was built, as well as drop-down behaviors and basic responsive styles. </p>
+			<p><strong>Please note:</strong> Minor changes needed to be made to the Bootstrap files to remove the 1200px wide breakpoint. If you update the base Twitter Bootstrap styles, you will need to make the following changes: </p>
+			<p><strong>NEED MORE INFO</strong></p>
+			<p>It is highly recommended to do testing when updating any base files as things on the site might break as changes are made to base code.</p>
+			<h2>Font Awesome Icons</h2>
+			<p>We are taking advantage of the web font, <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> to create all the icons used on the site (homepage buttons, footer icons, article sidebar). When updating Font Awesome files, please test accordingly as things can change in base code.</p>
+			<h2>Sticky Navigation</h2>
+			<p>This site takes advantage of the jQuery plugin, <a href="http://labs.anthonygarand.com/sticky">Sticky</a> to drive the sticky behavior for the Table of Contents and article sidebar navigation. There were some patches that needed to be made to this code in order to get it to not float over the footer of the page, and also to create correct jump-to behavior on the ToC page.</p> 
+			<p><strong>NEED MORE INFO ONCE FIXED</strong></p>
+			<h2>Responsive Behavior</h2>
+			<p>This site features very customized responsive behaviors for the header, navigation, footer, and article/sidebar containers. The responsive behaviors of this site are hand-coded, so if you add/remove/move/adjust any containers/code, please make sure to test at each breakpoint (you can simply re-size your browser, or use a tool like <a href="http://responsive.is">http://responsive.is</a>).</p>
+			<h2>Javascript Fallback</h2>
+			<p>The templates for the site rely on javascript to function fully (with dropdown and sticky behaviors). On page load, a script runs to remove the "nojs" class from the body, as well as a couple of other classes in the menu. If a browser does not have javascript enabled, the "nojs" class will remain, and an alternate display will occur, allowing the user to access all the menus and drop-downs.</p>
+			<h2>Separation of Content from Style</h2>
+			<p>Just a note to be careful to separate all style from the HTML content. Ideally, never place inline styles (e.g. style="blah") in your HTML. Instead, derive semantic class names that are re-usable to you going forward, and define those styles in the stylesheet.</p>
+
+			<hr />
+			<p><em>Last updated June 28, 2013 by <a href="http://webservices.stanford.edu">Stanford Web Services</a></em></p>
+
+			
+
+		</div><!-- End content -->
+
+	</div><!-- End container -->
+
+</body>
+</html>
