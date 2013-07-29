@@ -4,6 +4,8 @@ jQuery(document).ready(function($) {
 	// if Javascript is enabled, do these things:
 	$('body').removeClass('nojs');
 	$('.nav-collapse .dropdown').removeClass('open');
+	$('#article-sidebar .btn-navbar').addClass('collapsed');
+	$('#article-sidebar #article-nav').removeClass('in');
 	
 	/*$('a[name="a"]').css('padding-top', 25 + $('#toc-nav').outerHeight(true));
 	$('a[name="b"]').css('padding-top', $('#toc-nav').outerHeight(true));
