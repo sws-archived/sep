@@ -48,7 +48,7 @@
 								</div>
 								<div class="nav-collapse collapse">
 									<ul class="nav">
-										<li class="dropdown"><a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-book"></i> Browse</a>
+										<li class="dropdown open"><a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-book"></i> Browse</a>
 											<ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
 												<li><a href="../../contents.html">Table of Contents</a></li>
 												<li><a href="../../new.html">What's New</a></li>
@@ -57,7 +57,7 @@
 												<li><a href="../../archives/">Archives</a></li>
 											</ul>
 										</li>
-										<li class="dropdown"><a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-info-sign"></i> About</a>
+										<li class="dropdown open"><a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-info-sign"></i> About</a>
 											<ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
 												<li><a href="../../info.html">Editorial Information</a></li>
 												<li><a href="../../about.html">About the SEP</a></li>
@@ -68,7 +68,7 @@
 												<li><a href="#">Contact</a></li>
 											</ul>
 										</li>
-										<li class="dropdown"><a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-leaf"></i> Support SEP</a>
+										<li class="dropdown open"><a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-leaf"></i> Support SEP</a>
 											<ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
 												<li><a href="../../support/">Support the SEP</a></li>
 												<li><a href="../../support/friends.html">PDFs for SEP Friends</a></li>
@@ -96,25 +96,25 @@
 
 		<div id="content">
 
-		  <!-- NOTE: Article sidebar navigation is a template that needs individual links for each article. -->
+		  <!-- Begin article sidebar -->
 		  <div id="article-sidebar">
 		    <div class="sticky">
 		      <div class="navbar">
 			<div class="navbar-inner">
-			  <div class="container"> <!-- MEGAN: Added collapsed class by default to main nav -->
+			  <div class="container">
 			    <div class="btn btn-navbar collapsed" data-target=".collapse-sidebar" data-toggle="collapse" type="button">
 			      <i class="icon-reorder"></i> Entry Navigation
 			      </div>
-			    <div id="article-nav" class="nav-collapse collapse-sidebar collapse">
-			      <ul class="nav">
-				<li><a href="#toc">Entry Contents</a></li>
-				<li><a href="#Bib">Bibliography</a></li>
-				<li><a href="#Aca">Tools and Resources</a></li>
-				<li><a href="https://leibniz.stanford.edu/friends/preview/<% entrydir %>/">Friends PDF Preview <i class="icon-external-link"></i></a></li>
-				<li><a href="http://plato.stanford.edu/cgi-bin/encyclopedia/archinfo.cgi?entry=<% entrydir %>">Author and Citation Info  <i class="icon-external-link"></i></a> </li>
-				<li><a href="#pagetopright" class="back-to-top">Back to Top <i class="icon-angle-up icon2x"></i></a></li>
-				</ul>
-			      </div>
+                    <div id="article-nav" class="nav-collapse collapse-sidebar collapse">
+                      <ul class="nav">
+                        <li><a href="#toc">Entry Contents</a></li>
+                        <li><a href="#Bib">Bibliography</a></li>
+                        <li><a href="#Aca">Tools and Resources</a></li>
+                        <li><a href="https://leibniz.stanford.edu/friends/preview/<% entrydir %>/">Friends PDF Preview <i class="icon-external-link"></i></a></li>
+                        <li><a href="http://plato.stanford.edu/cgi-bin/encyclopedia/archinfo.cgi?entry=<% entrydir %>">Author and Citation Info  <i class="icon-external-link"></i></a> </li>
+                        <li><a href="#pagetopright" class="back-to-top">Back to Top <i class="icon-angle-up icon2x"></i></a></li>
+                     </ul>
+                    </div>
 			    </div>
 			  </div>
 			</div>
