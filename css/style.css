@@ -866,9 +866,10 @@ a.jump-to-top {
 .nojs #navigation .navbar .nav > li.dropdown .dropdown-menu {
     position: inherit;
 }
-.nojs #navigation .nav-collapse, .nojs #navigation  .nav-collapse.collapse {
+.nojs #navigation .nav-collapse, .nojs #navigation  .nav-collapse.collapse, .nojs #article-nav {
 	height: auto;
 }
+
 
 /****** Media Queries ******/
 
