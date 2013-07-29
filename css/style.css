@@ -869,6 +869,12 @@ a.jump-to-top {
 .nojs #navigation .nav-collapse, .nojs #navigation  .nav-collapse.collapse, .nojs #article-nav {
 	height: auto;
 }
+.nojs .navbar {
+    margin-bottom: 1em;
+}
+.nojs .icon-reorder {
+	display:none;
+}
 
 
 /****** Media Queries ******/
