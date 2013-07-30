@@ -941,7 +941,7 @@ a.jump-to-top {
 /****** Media Queries ******/
 
 /* ------ 1060px and less ------ */
-@media (max-width: 1060px) {
+@media (max-width: 66.250em) {
 	/* Styles for background color transition as window shrinks and red bkg disappears */
 	body {
 		background:#f3ede9;
@@ -959,7 +959,7 @@ a.jump-to-top {
 	}
 }
 /* ------ 960px and less (60em) ------ */
-@media (max-width: 960px) {
+@media (max-width: 60em) {
 	#header, #content, #footer {
 		margin-left:1em;
 		margin-right: 1em;
@@ -996,8 +996,8 @@ a.jump-to-top {
 	}
 }
 
-/* ------ 769px and more (48.001em) ------ */
-@media (min-width: 769px) {
+/* ------ 769px and more (48.063em) ------ */
+@media (min-width: 48.063em) {
 	.article #content {
 		padding-top: 0;
 	}
@@ -1014,8 +1014,8 @@ a.jump-to-top {
 	}
 }
 
-/* ------ 767px and less (48em) ------ */
-@media (max-width: 767px) {
+/* ------ 767px and less (47.938em) ------ */
+@media (max-width: 47.938em) {
 	#site-logo, #branding, #navigation, #search, .homepage #branding, 
 	.homepage #navigation, form#search-form, #article, #toc-nav {
 		width: 100%;
@@ -1232,7 +1232,7 @@ a.jump-to-top {
 }
 
 /* ------ 640px and less (40em) ------ */
-@media (max-width: 640px) {
+@media (max-width: 40em) {
 	.homepage #search, #browse { 
 		width: 100%;
 		margin-left:0;
@@ -1270,7 +1270,7 @@ a.jump-to-top {
 }
 
 /* ------ 480px and less (30em) ------ */
-@media (max-width: 480px) {
+@media (max-width: 30em) {
 	table td, .notice tr td:first-child {
 		display: block;
 	    line-height: 1.5em;
