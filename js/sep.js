@@ -1,6 +1,6 @@
 // Javascript for SEP
 
-jQuery(document).ready(function($) {
+$(document).ready(function() {
 	// if Javascript is enabled, do these things:
 	$('body').removeClass('nojs');
 	$('.nav-collapse .dropdown').removeClass('open');
