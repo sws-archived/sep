@@ -958,8 +958,8 @@ a.jump-to-top {
 		box-sizing:border-box;
 	}
 }
-/* ------ 960px and less ------ */
-@media (max-width: 60em) {
+/* ------ 960px and less (60em) ------ */
+@media (max-width: 960px) {
 	#header, #content, #footer {
 		margin-left:1em;
 		margin-right: 1em;
@@ -996,8 +996,8 @@ a.jump-to-top {
 	}
 }
 
-/* ------ 769px and more ------ */
-@media (min-width: 48.001em) {
+/* ------ 769px and more (48.001em) ------ */
+@media (min-width: 769px) {
 	.article #content {
 		padding-top: 0;
 	}
@@ -1014,8 +1014,8 @@ a.jump-to-top {
 	}
 }
 
-/* ------ 768px and less ------ */
-@media (max-width: 48em) {
+/* ------ 767px and less (48em) ------ */
+@media (max-width: 767px) {
 	#site-logo, #branding, #navigation, #search, .homepage #branding, 
 	.homepage #navigation, form#search-form, #article, #toc-nav {
 		width: 100%;
@@ -1231,8 +1231,8 @@ a.jump-to-top {
 	}
 }
 
-/* ------ 640px and less ------ */
-@media (max-width: 40em) {
+/* ------ 640px and less (40em) ------ */
+@media (max-width: 640px) {
 	.homepage #search, #browse { 
 		width: 100%;
 		margin-left:0;
@@ -1269,8 +1269,8 @@ a.jump-to-top {
 	}
 }
 
-/* ------ 480px and less ------ */
-@media (max-width: 30em) {
+/* ------ 480px and less (30em) ------ */
+@media (max-width: 480px) {
 	table td, .notice tr td:first-child {
 		display: block;
 	    line-height: 1.5em;
