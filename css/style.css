@@ -473,11 +473,11 @@ h1, .pagetitle {
 	display: block;
 	height: 0;
 	line-height: none;
-	padding-top: 6.5em;
-	margin-top: -6.5em;
+	padding-top: 6.2em;
+	margin-top: -6.2em;
 }
 .toc #content > a[name=a] {
-	padding-top: 8.5em;
+	padding-top: 8.2em;
 }
 .toc #content > h2 {
 	margin-top: 0;
