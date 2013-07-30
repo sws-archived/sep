@@ -265,7 +265,7 @@ form#search-form {
 #search .btn.search-btn {
 	font-size: 1em;
 	margin-right: 0;
-    top: -2.4em;
+    top: -2.24em;
 }
 #search .btn.search-btn:hover, #search .btn.search-btn:focus, #search .btn.search-btn:active, 
 #search.homepage .btn.search-btn:hover {
