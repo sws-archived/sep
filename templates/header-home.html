@@ -18,7 +18,7 @@
 <script type="text/javascript" src="js/sep.js"></script>
 </head>
 
- <!-- NOTE: "nojs" class will need to be added once we have a scripted javascript fallback. Additional body classes should be added for the homepage and article templates: class="nojs homepage" and class="nojs article". The nojs class is removed from the page if javascript is enabled. Otherwise, it drives the display when there is no javascript. -->
+ <!-- NOTE: The nojs class is removed from the page if javascript is enabled. Otherwise, it drives the display when there is no javascript. -->
 <body class="nojs homepage">
 
 	<div id="container">
@@ -38,9 +38,9 @@
 								<div class="btn btn-navbar collapsed" data-target=".nav-collapse" data-toggle="collapse" type="button">
 									<i class="icon-reorder"></i> Menu
 								</div>
-								<div class="nav-collapse collapse">
+								<div class="nav-collapse in collapse">
 									<ul class="nav">
-										<li class="dropdown"><a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-book"></i> Browse</a>
+										<li class="dropdown open"><a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-book"></i> Browse</a>
 											<ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
 												<li><a href="toc.html">Table of Contents</a></li>
 												<li><a href="#">What's New</a></li>
@@ -49,7 +49,7 @@
 												<li><a href="#">Archives</a></li>
 											</ul>
 										</li>
-										<li class="dropdown"><a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-info-sign"></i> About</a>
+										<li class="dropdown open"><a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-info-sign"></i> About</a>
 											<ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
 												<li><a href="editorial.html">Editorial Information</a></li>
 												<li><a href="#">About the SEP</a></li>
@@ -60,7 +60,7 @@
 												<li><a href="#">Contact</a></li>
 											</ul>
 										</li>
-										<li class="dropdown"><a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-leaf"></i> Support SEP</a>
+										<li class="dropdown open"><a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-leaf"></i> Support SEP</a>
 											<ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
 												<li><a href="#">Support the SEP</a></li>
 												<li><a href="#">PDFs for SEP Friends</a></li>
