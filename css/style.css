@@ -468,6 +468,42 @@ h1, .pagetitle {
 	font-weight: 300;
 }
 
+/* ------ Table of Contents Headings ------ */
+.toc #content > a[name] {
+	display: block;
+	height: 0;
+	line-height: none;
+	padding-top: 9em;
+	margin-top: -9em;
+}
+.toc #content > h2 {
+	margin-top: 0;
+}
+@media (max-width: 951px) { /* 2-rows */
+  .toc #content > a[name] {
+	  padding-top: 11.5em;
+	  margin-top: -11.5em;
+  }
+}
+@media (max-width: 519px) { /* 3-rows */
+  .toc #content > a[name] {
+	  padding-top: 13em;
+	  margin-top: -13em;
+  }
+}
+@media (max-width: 383px) { /* 4-rows */
+  .toc #content > a[name] {
+	  padding-top: 15.5em;
+	  margin-top: -15.5em;
+  }
+}
+@media (max-width: 311px) { /* 5-rows */
+  .toc #content > a[name] {
+	  padding-top: 18em;
+	  margin-top: -18em;
+  }
+}
+
 /* ----- Jump menu ----- */
 ul.jump-menu {
 	margin: 0;
