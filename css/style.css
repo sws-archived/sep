@@ -473,34 +473,58 @@ h1, .pagetitle {
 	display: block;
 	height: 0;
 	line-height: none;
-	padding-top: 9em;
-	margin-top: -9em;
+	padding-top: 6.5em;
+	margin-top: -6.5em;
+}
+.toc #content > a[name=a] {
+	padding-top: 8.5em;
 }
 .toc #content > h2 {
 	margin-top: 0;
 }
-@media (max-width: 951px) { /* 2-rows */
+@media (max-width: 920px) { /* 2-rows */
   .toc #content > a[name] {
-	  padding-top: 11.5em;
-	  margin-top: -11.5em;
+	  padding-top: 8.5em;
+	  margin-top: -8.5em;
+  }
+  .toc #content > a[name=a] {
+	  padding-top: 10.5em;
   }
 }
-@media (max-width: 519px) { /* 3-rows */
+@media (max-width: 488px) { /* 3-rows */
   .toc #content > a[name] {
-	  padding-top: 13em;
-	  margin-top: -13em;
+	  padding-top: 10.5em;
+	  margin-top: -10.5em;
+  }
+  .toc #content > a[name=a] {
+	  padding-top: 12.5em;
   }
 }
-@media (max-width: 383px) { /* 4-rows */
+@media (max-width: 352px) { /* 4-rows */
   .toc #content > a[name] {
-	  padding-top: 15.5em;
-	  margin-top: -15.5em;
+	  padding-top: 12.5em;
+	  margin-top: -12.5em;
+  }
+  .toc #content > a[name=a] {
+	  padding-top: 14.5em;
   }
 }
-@media (max-width: 311px) { /* 5-rows */
+@media (max-width: 280px) { /* 5-rows */
+  .toc #content > a[name] {
+	  padding-top: 15em;
+	  margin-top: -15em;
+  }
+  .toc #content > a[name=a] {
+	  padding-top: 17em;
+  }
+}
+@media (max-width: 262px) { /* Multi-line title and 5-rows */
   .toc #content > a[name] {
 	  padding-top: 18em;
 	  margin-top: -18em;
+  }
+  .toc #content > a[name=a] {
+	  padding-top: 20em;
   }
 }
 
