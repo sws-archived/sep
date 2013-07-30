@@ -265,7 +265,7 @@ form#search-form {
 #search .btn.search-btn {
 	font-size: 1em;
 	margin-right: 0;
-    top: -37px;
+    top: -2.4em;
 }
 #search .btn.search-btn:hover, #search .btn.search-btn:focus, #search .btn.search-btn:active, 
 #search.homepage .btn.search-btn:hover {
@@ -297,7 +297,7 @@ form#search-form {
 	color: #666;
 	font-size: 1.5em;
 	margin-right: 0;
-    top: -52px;
+    top: -2.25em;
 }
 
 /* ------ Advanced Search link ----- */
@@ -1041,7 +1041,7 @@ a.jump-to-top {
 	}
 	#search .btn.search-btn {
 		font-size: 1.3em;
-		top: -44px;
+		top: -1.75em;
 	}
 
 	/* --- Footer --- */
