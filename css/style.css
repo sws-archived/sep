@@ -1292,6 +1292,7 @@ a.jump-to-top {
 	}
 	.is-sticky #toc-nav {
 		max-width: 93%;
+		left:3.5%;
 	}
 	#mission p.lead {
 		font-size: 1.2em;
@@ -1328,5 +1329,6 @@ a.jump-to-top {
 	}
 	#article-sidebar .is-sticky .sticky {
 	    width: 93%;
+		left:3.5%;
 	}
 }
