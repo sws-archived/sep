@@ -986,13 +986,14 @@ a.jump-to-top {
 		max-width: 97%;
 	}
 	#article-sidebar .is-sticky .sticky {
-	    width: calc(27% - 1em);
+	    width: 227px;
 	}
 	#article-sidebar .sticky {
-		width: auto;
+		width: 227px;
 	}
 	#article {
 		width: 70%;
+		width: calc(100% - 235px);
 	}
 }
 
@@ -1009,7 +1010,7 @@ a.jump-to-top {
 		padding-top: 0;
 	}
 	#article {
-		margin-left: 29%;
+		margin-left: 235px;
 		display: block;
 	}
 }
@@ -1067,6 +1068,9 @@ a.jump-to-top {
 	}
 	.is-sticky #toc-nav {
 		max-width: 96%;
+	}
+	#article-sidebar .sticky {
+		width: auto;
 	}
 
 	/* ---- Responsive Navigation ---- */
