@@ -265,7 +265,7 @@ form#search-form {
 #search .btn.search-btn {
 	font-size: 1em;
 	margin-right: 0;
-    top: -2.24em;
+    top: -2.5em;
 }
 #search .btn.search-btn:hover, #search .btn.search-btn:focus, #search .btn.search-btn:active, 
 #search.homepage .btn.search-btn:hover {
@@ -1043,7 +1043,7 @@ a.jump-to-top {
 	}
 	#search .btn.search-btn {
 		font-size: 1.3em;
-		top: -1.75em;
+		top: -2.2em;
 	}
 
 	/* --- Footer --- */
