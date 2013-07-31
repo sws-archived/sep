@@ -1221,6 +1221,7 @@ a.jump-to-top {
 	    -moz-box-sizing: border-box;
 	    box-sizing: border-box;
 	    width: 96%;
+		left:2%;
 	}
 	#article-sidebar .is-sticky .navbar {
 		margin: 0;
