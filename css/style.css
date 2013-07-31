@@ -984,6 +984,7 @@ a.jump-to-top {
 	}	
 	.is-sticky #toc-nav {
 		max-width: 97%;
+		left: 2%;
 	}
 	#article-sidebar .is-sticky .sticky {
 	    width: 227px;
