@@ -25,7 +25,7 @@ $(document).ready(function() {
 				if (next) {
 					limit = $(next).offset().top - $(this).outerHeight(true) - 10;
 				} else {
-					limit = $('#article-banner').offset().top - $(this).outerHeight(true) - 10;
+					limit = $('.scroll-block').offset().top - $(this).outerHeight(true) - 10;
 				}
 				return limit;
 			},
