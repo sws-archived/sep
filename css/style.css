@@ -460,6 +460,10 @@ a:hover.advanced-search {
 .article #content {
 	padding-bottom: 2em;
 }
+.article a[name] {
+	margin-top: -1.5em;
+	padding-top: 1.5em;
+}
 h1, .pagetitle {
 	line-height: 1em;
 	font-size: 2.5em;
