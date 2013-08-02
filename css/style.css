@@ -614,7 +614,7 @@ a.jump-to-top {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 71%;
+    width: auto;
 }
 #article a {
 	text-decoration: underline;
@@ -1005,7 +1005,7 @@ a.jump-to-top {
 	#article-sidebar {
 		display: block;
 		float: left;
-		width: 27%;
+		width: 227px;
 		margin-bottom: 5px;
 		padding-top: 0;
 	}
