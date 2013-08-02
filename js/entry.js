@@ -1,4 +1,5 @@
 // Dock each summary as it arrives just below the docked header, pushing the previous summary up the page.
+$(document).ready(function() {
 	var summaries = $('.sticky');
 	summaries.each(function(i) {
 		var summary = $(summaries[i]);
@@ -17,3 +18,4 @@
 			zIndex: 999
 		});
 	});
+});
