@@ -1,5 +1,14 @@
+@charset "utf-8";
 /* CSS Document */
 .ie .navbar-inner {filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);}
+.ie .dropdown-menu > li > a:hover, 
+.ie .dropdown-menu > li > a:focus, 
+.ie .dropdown-submenu:hover > a, 
+.ie .dropdown-submenu:focus > a {
+    background-image: none !important;
+	background-color: #E6E6E6 !important;
+    color: #000000;
+}
 
 /* IE 9 */
 
