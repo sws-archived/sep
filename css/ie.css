@@ -10,10 +10,24 @@
     color: #000000;
 }
 
-/* IE 9 */
-
 /* IE 8 */
+.ie8 #search-form {width: 220px;}
 
 /* IE 7 */
+.ie7 #search {float: right; width: 390px; margin-top: -40px;}
+.ie7 #search-form {width: 220px;}
+.ie7 a.advanced-search {width: 150px; display: block; float: left;}
 
-/* IE 6 */
+.ie7 ul.nav {z-index: 1200 !important;}
+.ie7 ul.nav .dropdown-menu {z-index: 1100 !important;}
+
+.ie7 #content {position: relative; padding-top: 15px;}
+.ie7 #article-sidebar {position: absolute; left: 0; top: 4px;}
+.ie7 #article-sidebar i {margin-top: -1.8em;}
+.ie7 #article {margin: 0 0 0 235px;}
+
+.ie7 #footer-menu {float: left;}
+.ie7 #footer-menu .menu-block {float: left;}
+.ie7 #mirrors {float: left;}
+.ie7 #site-credits {clear: both;}
+.ie7 #site-credits img {width: 355px;}
