@@ -1247,7 +1247,7 @@ a.jump-to-top {
 		min-height: auto;
 		padding-top: 0;
 		padding-bottom:0;
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 	.is-sticky #toc-nav, #article-sidebar .is-sticky .sticky {
 	    width: 95%;
