@@ -9,8 +9,14 @@ $(document).ready(function() {
 	$('#article-sidebar #article-nav').removeClass('in');
 	$('#mirrors .btn-group').removeClass('open');
 	
+	// Collapse sidebar menu while jumping:
+	$('#article-nav a').click(function(){
+		$('#article-nav').removeClass('in');
+		$('#article-nav').css('height','0');
+	});
+	
 	// $('a[name="a"]').css('padding-top', 25 + $('#toc-nav').outerHeight(true));
 	// $('a[name="b"]').css('padding-top', $('#toc-nav').outerHeight(true));
     // $('a[name="c"]').css('padding-top', $('#toc-nav').outerHeight(true));
-	
+
 });

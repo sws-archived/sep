@@ -460,6 +460,10 @@ a:hover.advanced-search {
 .article #content {
 	padding-bottom: 2em;
 }
+.article a[name] {
+	margin-top: -1.5em;
+	padding-top: 1.5em;
+}
 h1, .pagetitle {
 	line-height: 1em;
 	font-size: 2.5em;
@@ -614,7 +618,7 @@ a.jump-to-top {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 71%;
+    width: auto;
 }
 #article a {
 	text-decoration: underline;
@@ -1005,7 +1009,7 @@ a.jump-to-top {
 	#article-sidebar {
 		display: block;
 		float: left;
-		width: 27%;
+		width: 227px;
 		margin-bottom: 5px;
 		padding-top: 0;
 	}
