@@ -725,6 +725,9 @@ a.jump-to-top {
     margin-top: 0.2em;
     float: right;
 }
+#article-sidebar .navbar .btn-navbar i {
+    float: none;
+}
 #article-sidebar .navbar .nav > li > a:focus, #article-sidebar .navbar .nav > li > a:hover {
 	background: #E5E5E5;
 }
